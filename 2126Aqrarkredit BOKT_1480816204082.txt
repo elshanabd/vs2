@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditInfo>
+<Header>
+<BankID>2126</BankID>
+<BankName>Aqrarkredit BOKT</BankName>
+<ReportingDate>24/05/2016</ReportingDate>
+</Header>
+<Credits>
+<Congratulations>Hec bir səhv tapılmadı</Congratulations>
+</Credits>
+</CreditInfo>
