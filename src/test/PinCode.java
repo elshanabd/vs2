@@ -25,6 +25,7 @@ System.out.println("Output : "+Pattern.matches("[a-zA-Z0-9]{6}", "arun$2"));//fa
 System.out.println("[0-9A-Z]{7} --- 2YMW1ТN Output "+Pattern.matches("[A-Z0-9]{7}","2YMW1ТN"));//false ($ is not matched) 
 System.out.println("[A-Z0-9]{7} --- 221KСF0 Output "+Pattern.matches("[A-Z0-9]{7}","2YMW1TN"));//false ($ is not matched) 
 System.out.println("[A-Z0-9]{7} --- 21RQХDK Output "+Pattern.matches("[A-Z0-9]{7}","221KCF0"));//false ($ is not matched) 
+System.out.println("[A-Z0-9]{7} --- 21RQХ00 Output "+Pattern.matches("[A-Z0-9]{7}","221KC00"));//false ($ is not matched) 
 
 
 
